@@ -1,5 +1,5 @@
 function FetchImages(SerializedArray) {
-    var ImageLinkArray = Json.parse(SerializedArray);
+    var ImageLinkArray = JSON.parse(SerializedArray);
     var blobArray = new Array();
     if (Array.isArray(ImageLinkArray)) {
         ImageLinkArray.forEach(item => {
